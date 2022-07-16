@@ -5,7 +5,10 @@ Teaching page
 
 ```R
 
-# Geometric Distribution 
+############################
+## Geometric Distribution ##
+############################
+
 N <- 1000
 p <- 0.209205
 
@@ -17,7 +20,10 @@ par(mfrow=c(1,2))
 hist(X,freq=F,main="Geom from Uniform")
 hist(Y,freq=F,main="Geom from R")
 
-# Exponential Distribution
+##############################
+## Exponential Distribution ##
+##############################
+
 N <- 1000
 U <- runif(N)
 X <- -log(U)

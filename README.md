@@ -1,4 +1,5 @@
-# Induction-R
+# Introduction-R
+
 Teaching page
 
 # Operations in R
@@ -229,3 +230,13 @@ hist(X,freq=F,main="Exp from Uniform")
 hist(Y,freq=F,main="Exp from R")
 
 ```
+
+# Reading List
+
+
+
+
+
+# How to Cite a Website
+
+See: https://www.mendeley.com/guides/web-citation-guide/

@@ -233,6 +233,7 @@ hist(Y,freq=F,main="Exp from R")
 
 # Reading List
 
+- [An Introduction to R](https://intro2r.com/). 
 
 
 

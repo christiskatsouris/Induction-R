@@ -148,22 +148,6 @@ if((A>2) || (B>2)) { C <- 1 } else { C <- 0 }
 
 ```
 
-# Installing R packages 
-
-```R
-
-install.packages( "insuranceData" )
-library( insuranceData )
-data( AutoClaims )
-head( AutoClaims )
-
-age_variable    <- AutoClaims$AGE 
-claims_variable <- AutoClaims$PAID
-
-hist( claims_variable )
-
-```
-
 # Functions in R
 
 ```R
@@ -196,6 +180,21 @@ Stand_dev_function <- function( y )
 
 ```
 
+# Installing R packages 
+
+```R
+
+install.packages( "insuranceData" )
+library( insuranceData )
+data( AutoClaims )
+head( AutoClaims )
+
+age_variable    <- AutoClaims$AGE 
+claims_variable <- AutoClaims$PAID
+
+hist( claims_variable )
+
+```
 
 # Distribution Theory
 

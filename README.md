@@ -1,6 +1,8 @@
 # Introduction-R
 
-Teaching page
+Teaching page (Drafted July 2022). 
+
+TIP: Learn, Unlearn & Relearn.
 
 # Operations in R
 
@@ -235,6 +237,7 @@ hist(Y,freq=F,main="Exp from R")
 # Example
 
 Putting all the above with an illustrative example we consider the following example. 
+
 
 
 # Reading List

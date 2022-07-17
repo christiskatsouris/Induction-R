@@ -270,7 +270,7 @@ fs.geom<- function(theta,avg)
 # Reading List
 
 - [An Introduction to R](https://intro2r.com/). 
-- Crawley, M. J. (2012). The R book. John Wiley & Sons.
+- Crawley, M. J. (2012). [The R book](https://www.wiley.com/en-gb/The+R+Book%2C+2nd+Edition-p-9780470973929). John Wiley & Sons.
 
 # Disclaimer
 

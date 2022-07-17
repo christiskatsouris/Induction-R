@@ -51,6 +51,23 @@ boxplot( Data_example )
 
 ```
 
+# Installing R packages 
+
+```R
+
+install.packages( "insuranceData" )
+library( insuranceData )
+data( AutoClaims )
+head( AutoClaims )
+
+age_variable    <- AutoClaims$AGE 
+claims_variable <- AutoClaims$PAID
+
+hist( claims_variable )
+
+```
+
+
 # Functions in R
 
 ```R
@@ -80,7 +97,6 @@ Stand_dev_function <- function( y )
 }
 
 > Stand_dev_function(  vector_x )
-
 
 ```
 

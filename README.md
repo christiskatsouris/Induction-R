@@ -41,7 +41,49 @@ mean(x)
 var(x) 
 sum((x-mean(x))^2)/(length(x)-1)
 
+# Descriptive Data Analysis
+Data_example <- rnorm( n = 100, mean = 10, sd = 5 )
+summary( Data_example )
+density( Data_example )
+stem( Data_example )
+hist( Data_example )
+boxplot( Data_example )
+
 ```
+
+# Functions in R
+
+```R
+
+# Example 1 
+incomes      <- c(60, 49, 40, 61, 64, 60, 59, 54, 62, 69, 70, 42, 56, 61, 61, 61, 58, 51, 48, 65, 49, 49, 41, 48, 52, 46, 59, 46, 58, 43)
+income_means <- tapply( X=incomes, INDEX=statef, FUN=mean)
+
+std_error        <- function(x) sqrt( var(x)/length(x) )
+income_std_error <- tapply( incomes, statef, std_error )
+
+# Example 2 
+average <- function(a,b) 
+{ 
+  compute_average <- (a+b)/2 
+  return ( compute_average )
+}
+
+ave <- average(4,6)
+> ave
+
+# Example 3
+Stand_dev_function <- function( y )
+{  
+  SD       <- sqrt( var( y ) )
+  return ( SD )
+}
+
+> Stand_dev_function(  vector_x )
+
+
+```
+
 
 # Distribution Theory
 

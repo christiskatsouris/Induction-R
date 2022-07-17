@@ -98,6 +98,53 @@ boxplot( Data_example )
 
 ```
 
+# Looping in R
+
+```R
+
+# While Loop
+i <- 1
+while(i <= 7)
+{
+  print(i)
+  i <- i + 1
+}
+
+# Repeat Loop
+i <- 1
+repeat
+{
+  print(i)
+  i <- i + 1
+  if(i > 10)	
+  {
+    break
+  }
+}
+
+########################
+# Conditional Execution:
+########################
+
+A <- -2
+if( A <0 ) { Abs.A <- (-1)*A }
+Abs.A
+
+A <- 1
+B <- 2
+if((A>2) || (B>2)) { C <- 1 } else { C <- 0 }
+
+for(i in 1:n) { < do operations in for loop > }
+
+for(i in (1:4)) print(i)
+for(i in (1:4)^2) print(i)
+for(i in (1:4)^2) cat(i," ")
+for(i in (1:4)^2) cat(i,"\n")
+
+for (i in -2:4) {cat(i);cat("  ",i^2,"\n")} 
+
+```
+
 # Installing R packages 
 
 ```R

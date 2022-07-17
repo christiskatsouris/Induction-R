@@ -248,7 +248,7 @@ hist(Y,freq=F,main="Exp from R")
 
 ```
 
-# Example
+## Example
 
 Putting all the above with an illustrative example we consider the following example. Consider constructing a function that estimates the maximum likelihood estimate for the geometric distribution. HINT: Use a stopping rule by considering the convergence of the computational algorithm. 
 
@@ -278,6 +278,30 @@ fs.geom<- function(theta,avg)
   list (theta=theta, niter=i, theta.trace=theta.trace[1:(1+i)],converge=converge)
 
 }#end of function 
+
+```
+
+# Fitting a Linear Regression Model 
+
+```R
+
+#  Fitting the linear model
+> calciummod<-lm(mortality~calcium)
+> summary(calciummod)
+> par(mfrow=c(2,2))
+> plot(calciummod)
+
+# To add the regression line on the plot
+> plot(mortality~calcium)
+> abline(calciummod$coef)
+
+# The box-cox transformation
+
+ boxcox(lm1)
+> lm1<-lm(yield~tissue+pctp,data=RNA)
+> lm2<-lm(yield~tissue,data=RNA)
+> anova(lm1,lm2)
+
 
 ```
 

@@ -10,9 +10,9 @@ weight <- 75
 age    <- 26
 job    <- "Researcher"
 
-#####################
+########################
 # Generating Sequences
-#####################
+########################
 
 rep(c(1:4),3)
 rep(c(1:4), times = 3)
@@ -21,9 +21,9 @@ rep(c(1:4), each = 3)
 seq(from = 1, to = 4, by = 1)
 seq(4,19,3)
 
-#####################
+########################
 # Generating Matrices
-#####################
+########################
 
 y <- matrix(1:9, nrow=3, ncol=3)
 y <- matrix(1:9, nrow=3, ncol=3, byrow=TRUE)
@@ -70,9 +70,9 @@ diag(B)
 diag(A %*% B)
 diag(A * B)
 
-#####################
+########################
 # Generating Vectors 
-#####################
+########################
 
 x <- c(10.4, 5.6, 3.1, 6.4, 21.7)
 v <- 2*x + 1/x
@@ -88,7 +88,9 @@ mean(x)
 var(x) 
 sum((x-mean(x))^2)/(length(x)-1)
 
+############################
 # Descriptive Data Analysis
+############################
 Data_example <- rnorm( n = 100, mean = 10, sd = 5 )
 summary( Data_example )
 density( Data_example )
@@ -133,7 +135,7 @@ for(i in (1:4)^2) cat(i,"\n")
 for (i in -2:4) {cat(i);cat("  ",i^2,"\n")} 
 
 ########################
-# Conditional Execution:
+# Conditional Execution
 ########################
 
 A <- -2
@@ -161,7 +163,6 @@ claims_variable <- AutoClaims$PAID
 hist( claims_variable )
 
 ```
-
 
 # Functions in R
 

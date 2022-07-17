@@ -309,7 +309,7 @@ fs.geom<- function(theta,avg)
 
 # The box-cox transformation
 
- boxcox(lm1)
+> boxcox(lm1)
 > lm1<-lm(yield~tissue+pctp,data=RNA)
 > lm2<-lm(yield~tissue,data=RNA)
 > anova(lm1,lm2)

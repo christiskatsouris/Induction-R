@@ -10,7 +10,10 @@ weight <- 75
 age    <- 26
 job    <- "Researcher"
 
+#####################
 # Generating Sequences
+#####################
+
 rep(c(1:4),3)
 rep(c(1:4), times = 3)
 rep(c(1:4), each = 3)
@@ -18,7 +21,10 @@ rep(c(1:4), each = 3)
 seq(from = 1, to = 4, by = 1)
 seq(4,19,3)
 
+#####################
 # Generating Matrices
+#####################
+
 y <- matrix(1:9, nrow=3, ncol=3)
 y <- matrix(1:9, nrow=3, ncol=3, byrow=TRUE)
 
@@ -26,7 +32,48 @@ y <- matrix(1:9, nrow=3, ncol=3, byrow=TRUE)
 > y[1,]
 > y[2,]
 
+# Creating matrices in R
+z <- rep(0,times=3*4)
+dim(z) <- c(3,4)
+z
+
+z <- matrix( 0 , nrow = 3, ncol = 3 )
+A <- matrix( 0, nrow = 3, ncol = 3 )
+B <- matrix( 0, nrow = 3, ncol = 3 )
+
+A[1,1] <- -2
+A[1,2] <- 3
+A[1,3] <- 1
+A[2,1] <- 0
+A[2,2] <- 0.5
+A[2,3] <- 4
+A[3,1] <- -3
+A[3,2] <- 5
+A[3,3] <- 3.5
+
+B[1,1] <- -8
+B[1,2] <- 4
+B[1,3] <- 1
+B[2,1] <- 2
+B[2,2] <- 0.5
+B[2,3] <- -4
+B[3,1] <- 6
+B[3,2] <- 2
+B[3,3] <- 3
+
+A %*% B
+A * B
+
+diag(5)
+diag(A)
+diag(B)
+diag(A %*% B)
+diag(A * B)
+
+#####################
 # Generating Vectors 
+#####################
+
 x <- c(10.4, 5.6, 3.1, 6.4, 21.7)
 v <- 2*x + 1/x
 

@@ -244,7 +244,7 @@ fs.geom<- function(theta,avg)
 {#begin of function
 
   if (theta<0 | theta>1) stop ("theta not in [0,1]")
-  if (avg<0) stop ("avg must be posotive")
+  if (avg<0) stop ("avg must be positive")
  
   maxit<-100
   epsilon<- 1e-5  

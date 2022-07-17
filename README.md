@@ -243,6 +243,7 @@ Putting all the above with an illustrative example we consider the following exa
 # Reading List
 
 - [An Introduction to R](https://intro2r.com/). 
+- Crawley, M. J. (2012). The R book. John Wiley & Sons.
 
 # Disclaimer
 

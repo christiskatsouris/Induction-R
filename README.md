@@ -246,6 +246,18 @@ par(mfrow=c(1,2))
 hist(X,freq=F,main="Exp from Uniform")
 hist(Y,freq=F,main="Exp from R")
 
+# Alternatively we can construct an R function as below 
+
+expvar <-function(n=1,rate=1)
+ {
+   u<-runif(n)
+   x<- -log(u)/rate
+   return(x)
+ }
+
+# The function that computes an iid sample of size n from an exponential distribution with parameter rate. 
+# It uses the inverse transformation method. 
+
 ```
 
 ## Example

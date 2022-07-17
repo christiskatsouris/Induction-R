@@ -92,6 +92,7 @@ sum((x-mean(x))^2)/(length(x)-1)
 ############################
 # Descriptive Data Analysis
 ############################
+
 Data_example <- rnorm( n = 100, mean = 10, sd = 5 )
 summary( Data_example )
 density( Data_example )
@@ -230,6 +231,11 @@ hist(X,freq=F,main="Exp from Uniform")
 hist(Y,freq=F,main="Exp from R")
 
 ```
+
+# Example
+
+Putting all the above with an illustrative example we consider the following example. 
+
 
 # Reading List
 

@@ -236,9 +236,36 @@ hist(Y,freq=F,main="Exp from R")
 
 # Example
 
-Putting all the above with an illustrative example we consider the following example. 
+Putting all the above with an illustrative example we consider the following example. Consider constructing a function that estimates the maximum likelihood estimate for the geometric distribution. HINT: Use a stopping rule by considering the convergence of the computational algorithm. 
 
+```R
 
+fs.geom<- function(theta,avg)
+{#begin of function
+
+  if (theta<0 | theta>1) stop ("theta not in [0,1]")
+  if (avg<0) stop ("avg must be posotive")
+ 
+  maxit<-100
+  epsilon<- 1e-5  
+
+  theta.trace<- array(NA,maxit+1)
+  theta.trace[1]<- theta #store initial estimate
+
+  for (i in 1:maxit)
+   {
+     theta.old<- theta
+     theta<- ((1-theta)^2 )*avg + theta^2
+     theta.trace[i+1]<-theta
+     converge<- abs(theta-theta.old)/theta.old < epsilon
+     if (converge) break
+   }
+
+  list (theta=theta, niter=i, theta.trace=theta.trace[1:(1+i)],converge=converge)
+
+}#end of function 
+
+```
 
 # Reading List
 

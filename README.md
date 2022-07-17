@@ -260,18 +260,18 @@ fs.geom<- function(theta,avg)
   if (theta<0 | theta>1) stop ("theta not in [0,1]")
   if (avg<0) stop ("avg must be positive")
  
-  maxit<-100
-  epsilon<- 1e-5  
+  maxit   <-100
+  epsilon <- 1e-5  
 
-  theta.trace<- array(NA,maxit+1)
-  theta.trace[1]<- theta #store initial estimate
+  theta.trace    <- array(NA,maxit+1)
+  theta.trace[1] <- theta #store initial estimate
 
   for (i in 1:maxit)
    {
-     theta.old<- theta
-     theta<- ((1-theta)^2 )*avg + theta^2
-     theta.trace[i+1]<-theta
-     converge<- abs(theta-theta.old)/theta.old < epsilon
+     theta.old        <- theta
+     theta            <- ((1-theta)^2 )*avg + theta^2
+     theta.trace[i+1] <- theta
+     converge         <- abs(theta-theta.old)/theta.old < epsilon
      if (converge) break
    }
 

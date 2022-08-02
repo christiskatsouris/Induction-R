@@ -311,6 +311,7 @@ function (n)
 
 Similar to Example 3, draw random samples from the Exponential distribution and plot the distribution of the sum of i.i.d Exponentially distributed random variables for different sample sizes (e.g., $n = 1,2,4,8)$.
 
+<img src="https://github.com/christiskatsouris/Introduction-R/blob/main/Data/graph3.png" width="500"/>
 
 ## Example 4
 

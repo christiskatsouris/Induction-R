@@ -305,6 +305,8 @@ function (n)
 
 ```
 
+<img src="https://github.com/christiskatsouris/Introduction-R/blob/main/Data/graph2.png" width="500"/>
+
 ## Example 4
 
 Write-up the code for an R function that estimates the maximum likelihood estimate for the geometric distribution. HINT: Use a stopping rule by considering the convergence of the computational algorithm. 

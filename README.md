@@ -284,7 +284,7 @@ expvar <-function(n=1,rate=1)
 
 ```
 
-<img src="https://github.com/christiskatsouris/Introduction-R/blob/main/Data/graph1.jpg" width="500"/>
+<img src="https://github.com/christiskatsouris/Introduction-R/blob/main/Data/graph1.png" width="500"/>
 
 ## Example 3
 

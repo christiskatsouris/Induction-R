@@ -284,7 +284,28 @@ expvar <-function(n=1,rate=1)
 
 ```
 
+## 
+
 ## Example 3
+
+```R
+
+function (n)
+  {
+    x<-c(1:10000)
+    for (i in 1:10000)
+    {
+      x[i]<-sum( runif(n) )
+    }
+    makelabel<-paste("10000 samples of sum X,with n= ", as.character(n))
+    hist(x,prob=TRUE,xlab="X1+X2+...+Xn",ylab="Density",main=makelabel) 
+                                         #ylim=c(0.0,1.5)only for the case n=1
+    curve( dnorm (x, mean=(n*(1/2)), sd=( sqrt(n/12) ) ) , add=TRUE, col='red' )
+ }
+
+```
+
+## Example 4
 
 Write-up the code for an R function that estimates the maximum likelihood estimate for the geometric distribution. HINT: Use a stopping rule by considering the convergence of the computational algorithm. 
 

@@ -307,6 +307,11 @@ function (n)
 
 <img src="https://github.com/christiskatsouris/Introduction-R/blob/main/Data/graph2.png" width="500"/>
 
+### Task
+
+Similar to Example 3, draw random samples from the Exponential distribution and plot the distribution of the sum of i.i.d Exponentially distributed random variables for different sample sizes (e.g., $n = 1,2,4,8)$.
+
+
 ## Example 4
 
 Write-up the code for an R function that estimates the maximum likelihood estimate for the geometric distribution. HINT: Use a stopping rule by considering the convergence of the computational algorithm. 

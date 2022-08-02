@@ -216,6 +216,30 @@ hist( claims_variable )
 
 # Distribution Theory
 
+## Example 1
+
+```R
+
+function (n) 
+{ 
+  # Let u be the sample of uniform distribution
+  u<-runif(n)  
+  
+ # Let x be the new sample of the inverse of the given cdf
+  x<-( sqrt(-log(1-u)) ) 
+  
+  makelabel<-paste(as.character(n), "samples from F(x)=1-exp(-x^2)")
+  hist(x, prob=TRUE, main=makelabel, xlab='Sample value', ylab='Density')
+  curve( (2*x*exp(-(x^2)) ), add=TRUE, col='red')
+ 
+  # the function returns the sample median of the distribution
+  return (median(x)) 
+}
+
+```
+
+## Example 2
+
 ```R
 
 ############################
@@ -260,9 +284,9 @@ expvar <-function(n=1,rate=1)
 
 ```
 
-## Example
+## Example 3
 
-Putting all the above with an illustrative example we consider the following example. Consider constructing a function that estimates the maximum likelihood estimate for the geometric distribution. HINT: Use a stopping rule by considering the convergence of the computational algorithm. 
+Write-up the code for an R function that estimates the maximum likelihood estimate for the geometric distribution. HINT: Use a stopping rule by considering the convergence of the computational algorithm. 
 
 ```R
 

@@ -375,6 +375,11 @@ fs.geom<- function(theta,avg)
 - [An Introduction to R](https://intro2r.com/). 
 - Crawley, M. J. (2012). [The R book](https://www.wiley.com/en-gb/The+R+Book%2C+2nd+Edition-p-9780470973929). John Wiley & Sons.
 
+# Historical Background
+
+\textbf{Maurice Fréchet} was a French mathematician who made major contributions to the topology of point sets and defined and founded the theory of abstract spaces. Fréchet wrote an outstanding doctoral dissertation Sur quelques points du calcul fonctionnel Ⓣ submitted on 2 April 1906. In it he introduced the concept of a metric space, although he did not invent the name 'metric space' which is due to Hausdorff. The thesis concerns 'functional operations' and 'functional calculus' and is developed from ideas due to Hadamard and Volterra. The importance of the thesis is that it develops axiomatic analysis systems providing an abstraction of different objects studied by analysis in a similar way to group theory providing an abstraction of algebraic systems. This parallel is drawn by Fréchet himself who requires sufficient structure on his abstract systems so that limits and continuity can be studied. He defines a functional operation as a numerically valued function defined on arbitrary objects which he wants to include points, lines, functions, numbers, surfaces etc. The functional calculus of his thesis is then the systematic study of functional operations (see, [MathHistory](https://mathshistory.st-andrews.ac.uk/Biographies/Frechet/)). 
+
+
 # Disclaimer
 
 The author (Christis G. Katsouris) declares no conflicts of interest.

@@ -370,6 +370,12 @@ fs.geom<- function(theta,avg)
 
 ```
 
+ ### Reference
+ 
+ - Agarwal, Subhashish, et al. "Coronary calcium score and prediction of all-cause mortality in diabetes: the diabetes heart study." Diabetes care 34.5 (2011): 1219-1224.
+
+
+
 # Reading List
 
 - [An Introduction to R](https://intro2r.com/). 

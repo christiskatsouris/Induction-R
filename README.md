@@ -389,6 +389,8 @@ $\textbf{Maurice Fréchet}$ was a French mathematician who made major contributi
  
  Fréchet, M. (1943). Sur l'extension de certaines évaluations statistiques au cas de petits échantillons. Revue de l'Institut International de Statistique, 182-205.
 
+$\textbf{Francis Ysidro Edgeworth}$ was an Anglo-Irish philosopher and political economist who made significant contributions to the methods of statistics during the 1880s. In particular, he examined correlation and methods of estimating correlation coefficients in a series of papers (see, [MathHistory](https://mathshistory.st-andrews.ac.uk/Biographies/Edgeworth/)). 
+
 
 # Disclaimer
 

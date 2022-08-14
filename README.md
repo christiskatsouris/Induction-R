@@ -374,24 +374,19 @@ fs.geom<- function(theta,avg)
  
  - Agarwal, Subhashish, et al. "Coronary calcium score and prediction of all-cause mortality in diabetes: the diabetes heart study." Diabetes care 34.5 (2011): 1219-1224.
 
+### Background Statistical Theory
+
+<p align="center">
+  
+<img src="https://github.com/christiskatsouris/Introduction-R/blob/main/data/DOA.jpg" width="700"/>
+
+</p>  
 
 
 # Reading List
 
 - [An Introduction to R](https://intro2r.com/). 
 - Crawley, M. J. (2012). [The R book](https://www.wiley.com/en-gb/The+R+Book%2C+2nd+Edition-p-9780470973929). John Wiley & Sons.
-
-# Historical Background
-
-### Maurice Fréchet
-
-Maurice Fréchet was a French mathematician who made major contributions to the topology of point sets and defined and founded the theory of abstract spaces. Fréchet wrote an outstanding doctoral dissertation Sur quelques points du calcul fonctionnel Ⓣ submitted on 2 April 1906. In it he introduced the concept of a metric space, although he did not invent the name 'metric space' which is due to Hausdorff. The thesis concerns 'functional operations' and 'functional calculus' and is developed from ideas due to Hadamard and Volterra. The importance of the thesis is that it develops axiomatic analysis systems providing an abstraction of different objects studied by analysis in a similar way to group theory providing an abstraction of algebraic systems. This parallel is drawn by Fréchet himself who requires sufficient structure on his abstract systems so that limits and continuity can be studied. He defines a functional operation as a numerically valued function defined on arbitrary objects which he wants to include points, lines, functions, numbers, surfaces etc. The functional calculus of his thesis is then the systematic study of functional operations (see, [MathHistory](https://mathshistory.st-andrews.ac.uk/Biographies/Frechet/)). 
-
-- Fréchet, M. (1943). Sur l'extension de certaines évaluations statistiques au cas de petits échantillons. Revue de l'Institut International de Statistique, 182-205.
-
-### Francis Edgeworth
-
-Francis Ysidro Edgeworth was an Anglo-Irish philosopher and political economist who made significant contributions to the methods of statistics during the 1880s. In particular, he examined correlation and methods of estimating correlation coefficients in a series of papers (see, [MathHistory](https://mathshistory.st-andrews.ac.uk/Biographies/Edgeworth/)). 
 
 
 # Disclaimer
@@ -402,6 +397,14 @@ The proposed Course Syllabus is currently under development and has not been off
 
 Any errors or omissions are the responsibility of the author.
 
-# How to Cite a Website
+# Historical Background
 
-See: https://www.mendeley.com/guides/web-citation-guide/
+### Maurice Fréchet
+
+Maurice Fréchet was a French mathematician who made major contributions to the topology of point sets and defined and founded the theory of abstract spaces. Fréchet wrote an outstanding doctoral dissertation Sur quelques points du calcul fonctionnel Ⓣ submitted on 2 April 1906. In it he introduced the concept of a metric space, although he did not invent the name 'metric space' which is due to Hausdorff. The thesis concerns 'functional operations' and 'functional calculus' and is developed from ideas due to Hadamard and Volterra. The importance of the thesis is that it develops axiomatic analysis systems providing an abstraction of different objects studied by analysis in a similar way to group theory providing an abstraction of algebraic systems. This parallel is drawn by Fréchet himself who requires sufficient structure on his abstract systems so that limits and continuity can be studied. He defines a functional operation as a numerically valued function defined on arbitrary objects which he wants to include points, lines, functions, numbers, surfaces etc. The functional calculus of his thesis is then the systematic study of functional operations (see, [MathHistory](https://mathshistory.st-andrews.ac.uk/Biographies/Frechet/)). 
+
+Fréchet, M. (1943). Sur l'extension de certaines évaluations statistiques au cas de petits échantillons. Revue de l'Institut International de Statistique, 182-205.
+
+### Francis Edgeworth
+
+Francis Ysidro Edgeworth (8 February 1845 – 13 February 1926) was an Anglo-Irish philosopher and political economist who made significant contributions to the methods of statistics during the 1880s. In particular, he examined correlation and methods of estimating correlation coefficients in a series of papers (see, [MathHistory](https://mathshistory.st-andrews.ac.uk/Biographies/Edgeworth/)). 

@@ -378,7 +378,7 @@ fs.geom<- function(theta,avg)
 
 <p align="center">
   
-<img src="https://github.com/christiskatsouris/Introduction-R/blob/main/data/DOA.jpg" width="700"/>
+<img src="https://github.com/christiskatsouris/Introduction-R/blob/main/Data/DOA.jpg" width="700"/>
 
 </p>  
 

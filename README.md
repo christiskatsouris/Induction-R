@@ -374,7 +374,7 @@ fs.geom<- function(theta,avg)
  
  - Agarwal, Subhashish, et al. "Coronary calcium score and prediction of all-cause mortality in diabetes: the diabetes heart study." Diabetes care 34.5 (2011): 1219-1224.
 
-### Background Statistical Theory
+# Background Statistical Theory
 
 <p align="center">
   

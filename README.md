@@ -376,7 +376,9 @@ fs.geom<- function(theta,avg)
 
 # Using Jupyter with R 
 
-- R scripts can be runned using either R or using R studion. Furthermore, for writing R packages the best option is to use R studio which can be linked to Github. An alternative solution to execute R commands is with the use of Jupyter which has in independent running environment, that is, is a browser-based approach using the Anaconda operating interface.
+- R scripts can be runned using either R or using R studion. Furthermore, for writing R packages the best option is to use R studio which can be linked to Github. 
+
+- An alternative solution to execute R commands is using Jupyter which is a browser-based running environment which runs with the help of 'Anaconda', an open-source Python distribution platform. Notice that to access the Anaconda Powershell Prompt this can be done either using a Virtual Desktop (where the software is already installed) or by donwloading the 'Anaconda Distribution' [here](https://www.anaconda.com/products/distribution).  
 
 - The Anaconda software provides a Power Shell environment where the R kernel can be installed using the following code: 
 
@@ -385,6 +387,8 @@ fs.geom<- function(theta,avg)
 conda install -cconda-forge r-irkernel
 
 ```
+
+- 
 
 # Reading List
 

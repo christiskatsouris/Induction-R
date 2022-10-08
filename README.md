@@ -376,7 +376,7 @@ fs.geom<- function(theta,avg)
 
 # Using Jupyter with R 
 
-R scripts can be run using either R or using R studion. Furthermore, for writing R packages the best option is to use R studio which can be linked to Github. An alternative solution to execute R commands is with the use of Jupyter which has in independent running environment, that is, is a browser-based approach using the Anaconda operating interface.  
+R scripts can be runned using either R or using R studion. Furthermore, for writing R packages the best option is to use R studio which can be linked to Github. An alternative solution to execute R commands is with the use of Jupyter which has in independent running environment, that is, is a browser-based approach using the Anaconda operating interface.  
 
 
 

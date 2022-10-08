@@ -403,4 +403,4 @@ Maurice Fréchet (2 September 1878 – 4 June 1973) was a French mathematician w
 
 ### Reference: 
 
-Fréchet, M. (1943). Sur l'extension de certaines évaluations statistiques au cas de petits échantillons. Revue de l'Institut International de Statistique, 182-205.
+Fréchet, M. (1943). [Sur l'extension de certaines évaluations statistiques au cas de petits échantillons](https://www.jstor.org/stable/1401114#metadata_info_tab_contents). Revue de l'Institut International de Statistique, 182-205.

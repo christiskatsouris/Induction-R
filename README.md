@@ -374,6 +374,13 @@ fs.geom<- function(theta,avg)
  
  - Agarwal, Subhashish, et al. "Coronary calcium score and prediction of all-cause mortality in diabetes: the diabetes heart study." Diabetes care 34.5 (2011): 1219-1224.
 
+# Using Jupyter with R 
+
+R scripts can be run using either R or using R studion. Furthermore, for writing R packages the best option is to use R studio which can be linked to Github. An alternative solution to execute R commands is with the use of Jupyter which has in independent running environment, that is, is a browser-based approach using the Anaconda operating interface.  
+
+
+
+
 # Reading List
 
 - [An Introduction to R](https://intro2r.com/). 

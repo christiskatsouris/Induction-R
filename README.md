@@ -378,7 +378,7 @@ fs.geom<- function(theta,avg)
 
 - R scripts can be runned using either [R](https://cran.r-project.org/bin/windows/base/) or using [R Studio](https://www.rstudio.com/). Furthermore, for writing R packages the best option is to use R Studio which can be linked to Github. Note that 'R Studio' is becoming ['posit'](https://posit.co/) from Octomber 2022. 
 
-- An alternative solution to execute R commands is using Jupyter which is a browser-based (web-based) running environment which runs with the help of '[Anaconda](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))', an open-source Python distribution platform. Notice that to access the Anaconda Powershell Prompt this can be done either using a Virtual Desktop (where the software is already installed) or by donwloading the 'Anaconda Distribution' [here](https://www.anaconda.com/products/distribution).  
+- An alternative solution to execute R commands is using [Jupyter](https://jupyter.org/) which is a browser-based (web-based) running environment which runs with the help of '[Anaconda](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))', an open-source Python distribution platform. Notice that to access the Anaconda Powershell Prompt this can be done either using a Virtual Desktop (where the software is already installed) or by donwloading the 'Anaconda Distribution' [here](https://www.anaconda.com/products/distribution).  
 
 - The Anaconda software provides a Power Shell environment where the R kernel can be installed using the following code: 
 
@@ -389,6 +389,8 @@ conda install -c conda-forge r-irkernel
 ```
 
 - Then, in order to run the Jupyter browser-based notebook we select from the Start Menu: Anaconda > Jupyter Notebook.  
+
+- Another useful functionality of Jupeter 
 
 # Reading List
 

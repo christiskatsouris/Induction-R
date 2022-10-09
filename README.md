@@ -390,7 +390,20 @@ conda install -c conda-forge r-irkernel
 
 - Then, in order to run the Jupyter browser-based notebook we select from the Start Menu: Anaconda > Jupyter Notebook.  
 
-- Another useful functionality of Jupeter 
+- Another useful functionality of Jupeter is that once a section of code is written on a Jupyter notebook it can be saved as an .ipynb file extension which can be opened in Jupeter (using any web browser). Moreover, any R-script can be also saved as a pdf file. This can be done using the steps below:
+
+```R
+
+# Step 1: Open the Anaconda Powershell Prompt from the Start Menu
+# Step 2: Install the 'nbconvert' package by typing the folling into the command prompt:
+
+pip install pyppeteer
+pip install nbconvert[webpdf]
+jupyter nbconvert --to webpdf --allow-chromium-download 
+Example1.ipynb
+
+```
+
 
 # Reading List
 

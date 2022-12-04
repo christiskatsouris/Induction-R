@@ -354,7 +354,7 @@ fs.geom <- function(theta,avg)
 
 Consider the MLE estimator for the Cauchy location model.
 
-$$f(x ; \theta ) = \frac{ 1 }{ \pi \big[ (x - \theta)^2 + 1 \big] },$$
+$$f(x ; \theta ) = \frac{ 1 }{ \pi \big[ 1 + (x - \theta)^2 \big] },$$
 
 where $\theta$ is the unknown location parameter of the Cauchy distribution describing the center of the distribution (we set the scale parameter = 1). The maximum likelihood equation for the MLE is given by
 

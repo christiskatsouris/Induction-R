@@ -354,6 +354,8 @@ fs.geom<- function(theta,avg)
 
 Consider the MLE estimator for the Cauchy location model.
 
+$$f(x ; \theta ) = \frac{ 1 }{ \pi \big[ (x - \theta)^2 + 1 \big] }.$$
+
 ```R
 
 

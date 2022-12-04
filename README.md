@@ -307,6 +307,35 @@ function (n)
 
 <img src="https://github.com/christiskatsouris/Introduction-R/blob/main/Data/graph2.png" width="500"/>
 
+### Example 4
+
+```R
+# The function has 3 inputs: m=no. of realizations and n,p parameters of Binomial Distribution
+function (m,n,p)  
+{
+  c<-(1:m)  # We create a 1-D array with m elements
+  for (i in 1:m) #First for loop
+   {
+     flips <- c(1:n)
+     for (j in 1:n) # Second for loop
+      {
+        flips[j]<-0  # We initialize all the elements of the array flips[]
+        trial<-TRUE
+        while (trial==TRUE) # The while loop will be repeated as soon as trial is false
+         {
+           flips[j]<-flips[j] + 1
+           trial<- (runif(1)<p)
+         }
+      }
+     c[i]<-sum(flips) #We use the built-in function sum() to add all the values
+   }
+  makelabel<-paste(as.character(m)," realizations of B(",as.character(n),",",as.character(p),")") 
+  hist(c,prob=TRUE,xlab="X1+X2+...+Xn Bernoulli trials",main=makelabel)
+ 
+ # The function returns the histogram of the sum of m bernoulli random variables
+}
+```
+
 ### Task
 
 Similar to Example 3, draw random samples from the Exponential distribution and plot the distribution of the sum of i.i.d Exponentially distributed random variables for different sample sizes (e.g., $n = 1,2,4,8)$.

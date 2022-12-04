@@ -323,7 +323,7 @@ Write-up the code for an R function that estimates the maximum likelihood estima
 
 ```R
 
-fs.geom<- function(theta,avg)
+fs.geom <- function(theta,avg)
 {#begin of function
 
   if (theta<0 | theta>1) stop ("theta not in [0,1]")
@@ -354,7 +354,9 @@ fs.geom<- function(theta,avg)
 
 Consider the MLE estimator for the Cauchy location model.
 
-$$f(x ; \theta ) = \frac{ 1 }{ \pi \big[ (x - \theta)^2 + 1 \big] }.$$
+$$f(x ; \theta ) = \frac{ 1 }{ \pi \big[ (x - \theta)^2 + 1 \big] },$$
+
+where $\theta$ is the unknown location parameter of the Cauchy distribution describing the center of the distribution (we set the scale parameter = 1).
 
 ```R
 

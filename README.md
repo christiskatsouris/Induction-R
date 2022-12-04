@@ -388,6 +388,20 @@ cauchy.mle <- function(x,start,eps=1.e-8,max.iter=50)
     
 }# end-of-function
 
+x <- rcauchy(100) + 5 # 100 observations with theta = 5
+r <- cauchy.mle(x,start=median(x))
+
+$theta
+[1] 4.950597
+
+$loglik
+[1] -154.3468
+
+$info
+[1] 40.62471
+
+$convergence
+[1] TRUE
 ```
 
 # Linear Regression Model in R 

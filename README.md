@@ -429,7 +429,7 @@ Consider fitting a linear regression model to the 'mortality' data.
 
 ```
 
- ### Reference
+ ### Reference:
  
  - Agarwal, Subhashish, et al. "Coronary calcium score and prediction of all-cause mortality in diabetes: the diabetes heart study." Diabetes care 34.5 (2011): 1219-1224.
 

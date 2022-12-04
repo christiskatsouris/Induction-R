@@ -129,13 +129,13 @@ repeat
 }
 
 # For Loop
-for(i in 1:n) { < do operations in for loop > }
+for(i in 1:n) 
+{ < do operations in for loop > }
 
 for(i in (1:4)) print(i)
 for(i in (1:4)^2) print(i)
 for(i in (1:4)^2) cat(i," ")
 for(i in (1:4)^2) cat(i,"\n")
-
 for (i in -2:4) {cat(i);cat("  ",i^2,"\n")} 
 
 ########################
@@ -143,12 +143,16 @@ for (i in -2:4) {cat(i);cat("  ",i^2,"\n")}
 ########################
 
 A <- -2
-if( A <0 ) { Abs.A <- (-1)*A }
+if( A <0 ) 
+{ Abs.A <- (-1)*A }
 Abs.A
 
 A <- 1
 B <- 2
-if((A>2) || (B>2)) { C <- 1 } else { C <- 0 }
+if((A>2) || (B>2)) 
+{ C <- 1 } 
+else 
+{ C <- 0 }
 
 ```
 

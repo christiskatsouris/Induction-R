@@ -217,9 +217,16 @@ hist( claims_variable )
 ## Probability Density Functions 
 
 ```R
-
-
-
+> qcauchy(0.10, location = 0, scale = 1, lower.tail = FALSE, log.p = FALSE)
+[1] 3.077684
+> qcauchy(0.05, location = 0, scale = 1, lower.tail = FALSE, log.p = FALSE)
+[1] 6.313752
+> qcauchy(0.025, location = 0, scale = 1, lower.tail = FALSE, log.p = FALSE)
+[1] 12.7062
+> qcauchy(0.01, location = 0, scale = 1, lower.tail = FALSE, log.p = FALSE)
+[1] 31.82052
+> qcauchy(0.005, location = 0, scale = 1, lower.tail = FALSE, log.p = FALSE)
+[1] 63.65674
 
 ```
 

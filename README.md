@@ -216,6 +216,8 @@ hist( claims_variable )
 
 ## Probability Density Functions 
 
+Obtain upper critical values (one-sided upper bound) from a standard Cauchy random variable. 
+
 ```R
 > qcauchy(0.10, location = 0, scale = 1, lower.tail = FALSE, log.p = FALSE)
 [1] 3.077684

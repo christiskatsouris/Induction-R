@@ -350,7 +350,9 @@ fs.geom<- function(theta,avg)
 
 ```
 
-### Example 2 (Geometric Distribution)
+### Example 2 (Cauchy Distribution)
+
+Consider the MLE estimator for the Cauchy location model.
 
 ```R
 
@@ -379,7 +381,6 @@ Consider fitting a linear regression model to the 'mortality' data.
 > lm1<-lm(yield~tissue+pctp,data=RNA)
 > lm2<-lm(yield~tissue,data=RNA)
 > anova(lm1,lm2)
-
 
 ```
 

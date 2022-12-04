@@ -363,7 +363,7 @@ where $\theta$ is the unknown location parameter of the Cauchy distribution desc
 
 ```
 
-# Linear Regression Model using R 
+# Linear Regression Model Estimation in R 
 
 Consider fitting a linear regression model to the 'mortality' data.
 
@@ -382,8 +382,8 @@ Consider fitting a linear regression model to the 'mortality' data.
 # The box-cox transformation
 
 > boxcox(lm1)
-> lm1<-lm(yield~tissue+pctp,data=RNA)
-> lm2<-lm(yield~tissue,data=RNA)
+> lm1 <- lm(yield~tissue+pctp,data=RNA)
+> lm2 <- lm(yield~tissue,data=RNA)
 > anova(lm1,lm2)
 
 ```

@@ -231,7 +231,7 @@ hist( claims_variable )
 
 ## Transformation of Random Variables
 
-## Example 1
+### Example 1
 
 ```R
 
@@ -253,7 +253,7 @@ function (n)
 
 ```
 
-## Example 2
+### Example 2
 
 ```R
 
@@ -301,7 +301,7 @@ expvar <-function(n=1,rate=1)
 
 <img src="https://github.com/christiskatsouris/Introduction-R/blob/main/Data/graph1.png" width="500"/>
 
-## Example 3
+### Example 3
 
 ```R
 
@@ -328,7 +328,9 @@ Similar to Example 3, draw random samples from the Exponential distribution and 
 
 <img src="https://github.com/christiskatsouris/Introduction-R/blob/main/Data/graph3.png" width="500"/>
 
-## Example 4
+## Maximum Likelihood Estimation Methodology using R
+
+### Example 1 (Geometric Distribution)
 
 Write-up the code for an R function that estimates the maximum likelihood estimate for the geometric distribution. HINT: Use a stopping rule by considering the convergence of the computational algorithm. 
 
@@ -361,7 +363,16 @@ fs.geom<- function(theta,avg)
 
 ```
 
-# Fitting a Linear Regression Model 
+### Example 2 (Geometric Distribution)
+
+```R
+
+
+```
+
+# Linear Regression Model using R 
+
+Consider fitting a linear regression model to the 'mortality' data.
 
 ```R
 

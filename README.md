@@ -246,7 +246,6 @@ function (n)
   # the function returns the sample median of the distribution
   return (median(x)) 
 }
-
 ```
 
 ### Example 2
@@ -256,10 +255,8 @@ function (n)
 ############################
 ## Geometric Distribution ##
 ############################
-
 N <- 1000
 p <- 0.209205
-
 U <- runif(N)
 X <- log(U)/ log(1-p)
 Y <- rgeom(N,p)
@@ -271,7 +268,6 @@ hist(Y,freq=F,main="Geom from R")
 ##############################
 ## Exponential Distribution ##
 ##############################
-
 N <- 1000
 U <- runif(N)
 X <- -log(U)
@@ -282,7 +278,6 @@ hist(X,freq=F,main="Exp from Uniform")
 hist(Y,freq=F,main="Exp from R")
 
 # Alternatively we can construct an R function as below 
-
 expvar <-function(n=1,rate=1)
  {
    u<-runif(n)
@@ -292,7 +287,6 @@ expvar <-function(n=1,rate=1)
 
 # The function that computes an iid sample of size n from an exponential distribution with parameter rate. 
 # It uses the inverse transformation method. 
-
 ```
 
 <img src="https://github.com/christiskatsouris/Introduction-R/blob/main/Data/graph1.png" width="500"/>

@@ -214,7 +214,18 @@ hist( claims_variable )
 
 ```
 
-# Distribution Theory
+# Statistical Distribution Theory
+
+## Probability Density Functions 
+
+```R
+
+
+
+
+```
+
+## Transformation of Random Variables
 
 ## Example 1
 

@@ -358,14 +358,14 @@ $$f(x ; \theta ) = \frac{ 1 }{ \pi \big[ (x - \theta)^2 + 1 \big] },$$
 
 where $\theta$ is the unknown location parameter of the Cauchy distribution describing the center of the distribution (we set the scale parameter = 1). The maximum likelihood equation for the MLE is given by
 
-$$ S( \hat{\theta} ) = 2 \sum_{i=1}^n \frac{ \left( x_i - \hat{\theta} \right) }{ \pi \big[ (x - \hat{\theta} )^2 + 1 \big] }.$$
+$$ S( \hat{\theta} ) = 2 \sum_{i=1}^n \frac{ \left( x_i - \hat{\theta} \right) }{ \pi \big[ (x_i - \hat{\theta} )^2 + 1 \big] }.$$
 
 ```R
 
 
 ```
 
-# Linear Regression Model Estimation in R 
+# Linear Regression Model in R 
 
 Consider fitting a linear regression model to the 'mortality' data.
 

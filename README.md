@@ -443,7 +443,7 @@ $convergence
 
 ### Example 3 (Weibull Distribution)
 
-The Weibull distribution is one of the best-known life-time distributions. It adequently describes observed failures of many different types of components and phenomena. Sometimes it is also called the Frechet distribution and is considered to belong to the family of extremal distributions. The Weibull distribution has three parameters: $\alpha > 0$ the scale parameter, $\beta > 0$ the shape parameter that determines the shape of the distribution and $\tau \qeg 0$, the location parameter.      
+The Weibull distribution is one of the best-known life-time distributions. It adequently describes observed failures of many different types of components and phenomena. Sometimes it is also called the Frechet distribution and is considered to belong to the family of extremal distributions. The Weibull distribution has three parameters: $\alpha > 0$ the scale parameter, $\beta > 0$ the shape parameter that determines the shape of the distribution and $\tau > 0$, the location parameter.      
 
 ```R
 

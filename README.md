@@ -397,7 +397,6 @@ where $\theta$ is the unknown location parameter of the Cauchy distribution desc
 $$ S( \hat{\theta} ) = 2 \sum_{i=1}^n \frac{ \left( x_i - \hat{\theta} \right) }{ \pi \big[ (x_i - \hat{\theta} )^2 + 1 \big] }.$$
 
 ```R
-
 cauchy.mle <- function(x,start,eps=1.e-8,max.iter=50)
 {# begin-of-function
 
@@ -440,6 +439,15 @@ $info
 
 $convergence
 [1] TRUE
+```
+
+### Example 3 (Weibull Distribution)
+
+The Weibull distribution is one of the best-known life-time distributions. It adequently describes observed failures of many different types of components and phenomena. Sometimes it is also called the Frechet distribution and is considered to belong to the family of extremal distributions.    
+
+```R
+
+
 ```
 
 # Linear Regression Model in R 

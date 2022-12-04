@@ -230,7 +230,6 @@ hist( claims_variable )
 ### Example 1
 
 ```R
-
 function (n) 
 { 
   # Let u be the sample of uniform distribution
@@ -251,7 +250,6 @@ function (n)
 ### Example 2
 
 ```R
-
 ############################
 ## Geometric Distribution ##
 ############################
@@ -307,7 +305,6 @@ function (n)
                                          #ylim=c(0.0,1.5)only for the case n=1
     curve( dnorm (x, mean=(n*(1/2)), sd=( sqrt(n/12) ) ) , add=TRUE, col='red' )
  }
-
 ```
 
 <img src="https://github.com/christiskatsouris/Introduction-R/blob/main/Data/graph2.png" width="500"/>

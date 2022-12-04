@@ -7,7 +7,6 @@ TIP: Learn, Unlearn & Relearn.
 # Operations in R
 
 ```R
-
 height <- 1.81
 weight <- 75
 age    <- 26
@@ -362,6 +361,33 @@ $$ S( \hat{\theta} ) = 2 \sum_{i=1}^n \frac{ \left( x_i - \hat{\theta} \right) }
 
 ```R
 
+cauchy.mle <- function(x,start,eps=1.e-8,max.iter=50)
+{# begin-of-function
+
+   if (missing(start)) start <- median(x)
+   theta <- start
+   n <- length(x) 
+   score <- sum(2*(x-theta)/(1+(x-theta)^2))
+   iter <- 1
+   conv <- T
+   while (abs(score)>eps && iter<=max.iter)
+   {
+     info  <- sum((2-2*(x-theta)^2)/(1+(x-theta)^2)^2)
+     theta <- theta + score/info
+     iter  <- iter + 1
+     score <- sum(2*(x-theta)/(1+(x-theta)^2))
+    }
+    if (abs(score)>eps)
+    {
+       print("No Convergence")
+       conv <- F
+    }
+    loglik <- -sum(log(1+(x-theta)^2))
+    info   <- sum((2-2*(x-theta)^2)/(1+(x-theta)^2)^2)
+    return <- list(theta=theta,loglik=loglik,info=info,convergence=conv)
+    return
+    
+}# end-of-function
 
 ```
 

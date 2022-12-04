@@ -315,7 +315,7 @@ Similar to Example 3, draw random samples from the Exponential distribution and 
 
 <img src="https://github.com/christiskatsouris/Introduction-R/blob/main/Data/graph3.png" width="500"/>
 
-## Maximum Likelihood Estimation Methodology using R
+## Maximum Likelihood Estimation using R
 
 ### Example 1 (Geometric Distribution)
 
